@@ -1,0 +1,46 @@
+body {
+  margin: 0px;
+}
+.a {
+  display: flex;
+  justify-content: space-between;
+  max-width: 950px;
+  margin: auto;
+}
+.b {
+  width: 32%;
+  border: 1px solid #e6e6e6;
+  padding: 38px 22px 38px 22px;
+  box-sizing: border-box;
+}
+.c {
+  margin-bottom: 25px;
+}
+.d {
+  font-family: "Open Sans", sans-serif;
+  color: #48555b;
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 13px;
+}
+p {
+  font-size: 13px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: normal;
+  color: #48555b;
+  line-height: 23px;
+}
+@media (max-width: 755px) {
+  .a {
+    display: block;
+  }
+  .b {
+    margin: auto;
+    width: 60%;
+  }
+}
+@media (max-width: 425px) {
+  .b {
+    width: 100%;
+  }
+}
